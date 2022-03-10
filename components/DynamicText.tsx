@@ -14,7 +14,7 @@ const DynamicText = forwardRef((props, ref) => {
     };
   });
 
-  return <Text maxW={'90vw'} fontSize="lg">{value}</Text>;
+  return <Text maxW={'50vw'} fontSize="lg">{value}</Text>;
 });
 
 export default DynamicText;
