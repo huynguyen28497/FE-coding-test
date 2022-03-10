@@ -23,7 +23,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Container minH={"100vh"} centerContent>
-        <Box className={styles.main} maxW={"90vw"}>
+        <Box className={styles.main} maxW={"50vw"}>
           <DynamicText ref={inputRef} />
           <Input onChange={onChange} />
         </Box>
